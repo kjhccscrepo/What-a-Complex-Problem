@@ -10,7 +10,7 @@ private:
 	double divdenom;
 
 public:
-	ComplexNumber(double a, double b);
+	ComplexNumber(double r, double i);
 	double getReal();
 	double getImag();
 	std::string prettyPrint();
